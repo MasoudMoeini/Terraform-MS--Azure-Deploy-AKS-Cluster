@@ -29,7 +29,7 @@ kubectl get service azure-vote-front --watch
 ``` 
 The application is accessible on http://EXTERNAL-IP<br>
 You should see on browser something similar<br/>
-
+<img width="693" alt="Screenshot 2022-07-27 at 15 06 15" src="https://user-images.githubusercontent.com/43514418/181254368-0d61a89e-a46f-4a06-b78e-1fe8f8964b0c.png">
 
 # Clean up resources
 CTRL+C
