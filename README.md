@@ -23,13 +23,21 @@ kubectl get nodes
 ```
 kubectl apply -f azure-vote.yaml            
 ```
-To access application 
+To access application (--watch is optional)
 ```
-kubectl get service azure-vote-front --watch
+kubectl get service azure-vote-front [--watch]
 ``` 
 The application is accessible on http://EXTERNAL-IP<br>
 You should see on browser something similar<br/>
-<img width="605" alt="Screenshot 2022-07-27 at 15 07 18" src="https://user-images.githubusercontent.com/43514418/181254533-3aa25c2c-59a1-447c-af5f-3dc5d6e23c52.png">
+<img width="605" alt="Screenshot 2022-07-27 at 15 07 18" src="https://user-images.githubusercontent.com/43514418/181254533-3aa25c2c-59a1-447c-af5f-3dc5d6e23c52.png"><br/>
+
+# Deploy flask web app
+```
+kubectl apply -f flask-app-dep.yaml            
+```
+```
+kubectl get service flask-app-deployment
+```
 # Clean up resources
 CTRL+C
 ```
