@@ -19,7 +19,7 @@ To get cluster information
 ```
 kubectl get nodes
 ``` 
-To deploy azure vote app 
+# Deploy azure vote app 
 ```
 kubectl apply -f azure-vote.yaml            
 ```
