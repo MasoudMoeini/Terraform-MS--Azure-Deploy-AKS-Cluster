@@ -39,6 +39,9 @@ kubectl apply -f flask-app.yaml
 ```
 kubectl get service flask-app-deployment
 ```
+The application is accessible on http://EXTERNAL-IP:60000<br>
+You should see on browser something similar<br/>
+
 # Clean up resources
 CTRL+C
 ```
