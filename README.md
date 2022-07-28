@@ -28,7 +28,7 @@ To access application (--watch is optional)
 ```
 kubectl get service azure-vote-front [--watch]
 ``` 
-The application is accessible on http://EXTERNAL-IP<br>
+The application is accessible on http://<EXTERNAL-IP><br>
 You should see on browser something similar<br/>
 <img width="605" alt="Screenshot 2022-07-27 at 15 07 18" src="https://user-images.githubusercontent.com/43514418/181254533-3aa25c2c-59a1-447c-af5f-3dc5d6e23c52.png"><br/>
 
@@ -39,9 +39,9 @@ kubectl apply -f flask-app.yaml
 ```
 kubectl get service flask-app-deployment
 ```
-The application is accessible on http://EXTERNAL-IP:60000<br>
+The application is accessible on http://<EXTERNAL-IP:60000><br>
 You should see on browser something similar<br/>
-
+<img width="490" alt="Screenshot 2022-07-28 at 07 52 15" src="https://user-images.githubusercontent.com/43514418/181431046-20e7a7ae-c144-40e0-9f2f-6f3337c77a4a.png">
 # Clean up resources
 CTRL+C
 ```
