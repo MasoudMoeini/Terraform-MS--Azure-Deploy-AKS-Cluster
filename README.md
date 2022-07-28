@@ -41,7 +41,11 @@ kubectl get service flask-app-deployment
 ```
 The application is accessible on http://EXTERNAL-IP:60000<br>
 You should see on browser something similar<br/>
-<img width="490" alt="Screenshot 2022-07-28 at 07 52 15" src="https://user-images.githubusercontent.com/43514418/181431046-20e7a7ae-c144-40e0-9f2f-6f3337c77a4a.png">
+<img width="490" alt="Screenshot 2022-07-28 at 07 52 15" src="https://user-images.githubusercontent.com/43514418/181431046-20e7a7ae-c144-40e0-9f2f-6f3337c77a4a.png"> <br>
+To monitor Application logs
+```
+kubectl logs service/flask-app-deployment
+```
 # Clean up resources
 CTRL+C
 ```
