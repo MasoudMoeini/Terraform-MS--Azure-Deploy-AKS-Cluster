@@ -1,7 +1,8 @@
 # Terraform MS Azure Deploy AKS Cluster
 [Reference 1](https://docs.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-portal?tabs=azure-cli)<br/>
-[Reference 2](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/container_registry)
-
+[Reference 2](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/container_registry)<br/>
+Provision of kubernetes cluster in MS Azure using terraform from on premise system<br/>
+running Azure Vote app and flask app on kubenetes cluster<br/>
 ```
 terraform init -upgrade
 ```
